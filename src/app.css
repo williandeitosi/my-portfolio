@@ -1,4 +1,6 @@
 .app {
+  margin: auto;
+  width: 1000px;
   height: 100vh;
   padding: 2rem 4rem;
 }

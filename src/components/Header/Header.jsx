@@ -13,8 +13,8 @@ const Header = () => {
         <li><a className={style.links} href="">Técnologias</a></li>
         <li><a className={style.links} href="">Projetos</a></li>
         <li><a className={style.links} href="">CV</a></li>
-        <li><a href=""><img className={style.icons} src={github} alt="github"  /></a></li>
-        <li><a href=""><img className={style.icons} src={linkedin} alt="linkedin" /></a></li>
+        <li><a href="https://github.com/williandeitosi" target="_blank"><img className={style.icons} src={github} alt="github"   /></a></li>
+        <li><a href="https://www.linkedin.com/in/williangiovaninideitosi/" target="_blank"><img className={style.icons} src={linkedin} alt="linkedin" /></a></li>
       </ul>
       
     </div>
