@@ -1,0 +1,29 @@
+.info {
+  margin-top: 5rem;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userName {
+  display: inline;
+  background: linear-gradient(to right, blue, purple);
+  -webkit-background-clip: text; 
+  background-clip: text;
+  color: transparent; 
+}
+
+.boxAvatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10.5rem;
+  height: 10.5rem;
+  border-radius: 100%;
+  background:linear-gradient(45deg, blue, purple) ;
+}
+.avatar {
+  width: 10rem;
+  border-radius: 100%;
+}
