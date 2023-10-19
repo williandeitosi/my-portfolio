@@ -27,3 +27,38 @@
   width: 10rem;
   border-radius: 100%;
 }
+
+.aboutMe {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.aboutMe h2 {
+  color: rgb(0, 0, 93);
+  font-size: 2rem;
+}
+.photoAbout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100%;
+  width: 100%;
+  max-height: 400px;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+.myPhoto {
+  width: 300px ;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem ;
+  font-size: 1.03rem;
+}
