@@ -1,7 +1,7 @@
 import pc from "../../../public/pc.png";
 import linkedin from "../../../public/linkedin.png";
 import github from "../../../public/github.png";
-import style from "../Header/header.module.css"
+import style from "./header.module.css"
 
 
 const Header = () => {

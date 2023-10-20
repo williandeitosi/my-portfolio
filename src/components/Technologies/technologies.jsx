@@ -1,4 +1,4 @@
-import style from "../Technologies/tech.module.css";
+import style from "./tech.module.css";
 import images from "./importimgs";
 
 const Tech = () => {
