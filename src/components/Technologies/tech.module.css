@@ -12,13 +12,13 @@
 
 .techs {
   text-align: center;
-  margin-top: 7rem;
+  margin-top: 20rem;
   width: 100%;
   color: rgb(0, 0, 93);
 }
 
 .gridContainerIcons{
-  width: 100%;
+  width: 60%;
   display: grid;
   grid-template-columns: repeat(5, 1fr); /* 5 colunas */
   grid-template-rows: repeat(2, 1fr); /* 2 linhas */

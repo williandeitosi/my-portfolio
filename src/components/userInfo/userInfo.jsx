@@ -18,7 +18,7 @@ const userInfo = () => {
       </div>
       <div className={style.aboutMe}>
         <h2>Sobre mim</h2>
-        <div className={style.photoAbout}>
+        <div id="aboutMe" className={style.photoAbout}>
           <img className={style.myPhoto} src={avatar} alt="foto" />
           <div className={style.about} >
             <p>

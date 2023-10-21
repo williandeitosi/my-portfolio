@@ -9,7 +9,7 @@ const Header = () => {
     <div className={style.container}>
       <img className={style.img} src={pc} alt="" />
       <ul className={style.navBarMenu}>
-        <li><a className={style.links} href="">Sobre</a></li>
+        <li><a className={style.links} href="#aboutMe">Sobre</a></li>
         <li><a className={style.links} href="">Técnologias</a></li>
         <li><a className={style.links} href="">Projetos</a></li>
         <li><a className={style.links} href="">CV</a></li>

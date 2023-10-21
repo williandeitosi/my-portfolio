@@ -1,9 +1,10 @@
 .info {
-  margin-top: 5rem;
+  margin-top: 20rem;
   height: 250px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 1.5rem;
 }
 
 .userName {
@@ -18,18 +19,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 10.5rem;
-  height: 10.5rem;
+  width: 15.5rem;
+  height: 15.5rem;
   border-radius: 100%;
   background:linear-gradient(45deg, blue, purple) ;
 }
 .avatar {
-  width: 10rem;
+  width: 15rem;
   border-radius: 100%;
 }
 
 .aboutMe {
-  margin-top: 5rem;
+  margin-top: 20rem;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -1,17 +1,18 @@
 import style from "./card.module.css"
+import github from "../../../../public/github.png";
 
-const Cards = () => {
+
+const Cards = ({images, title, description, site, code}) => {
   return (
     <div className={style.card}>
-      <img src="" alt="todo-list" />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium,
-        saepe distinctio in amet repellendus soluta voluptate quo quos maiores.
-        Quibusdam quod repudiandae saepe harum doloremque sequi laborum est eos
-        error?
-      </p>
-      <div className={style.buttons} >
-        <a href="">gitHub</a>
+      <img className={style.photo} src={images} alt={title} />
+      <div className={style.info}>
+        <h2>{title}</h2>
+        <p>{description}</p>
+        <div className={style.buttons} >
+          <a href={site} target="_blank"><img className={style.icon} src={github} alt="" />ir ao site</a>
+          <a href={code} target="_blank">ver o código</a>
+        </div>
       </div>
     </div>
   );
