@@ -6,8 +6,9 @@
   gap: 1.5rem;
 }
 
-.containerTech h2 {
+.containerTech > h2 {
   font-size: 2rem;
+  margin-bottom: 7rem;
 }
 
 .techs {
@@ -20,9 +21,9 @@
 .gridContainerIcons{
   width: 60%;
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 5 colunas */
-  grid-template-rows: repeat(2, 1fr); /* 2 linhas */
-  gap: 10px; /* Espaço entre as imagens */
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-rows: repeat(2, 1fr); 
+  gap: 10px; 
 }
 
 .gridIcons {

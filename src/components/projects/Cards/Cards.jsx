@@ -10,8 +10,8 @@ const Cards = ({images, title, description, site, code}) => {
         <h2>{title}</h2>
         <p>{description}</p>
         <div className={style.buttons} >
-          <a href={site} target="_blank"><img className={style.icon} src={github} alt="" />ir ao site</a>
-          <a href={code} target="_blank">ver o código</a>
+          <a className={style.siteBtn} href={site} target="_blank">Ir ao site</a>
+          <a className={style.siteBtn} href={code} target="_blank">Repositório</a>
         </div>
       </div>
     </div>
