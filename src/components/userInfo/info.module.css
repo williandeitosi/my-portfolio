@@ -10,9 +10,9 @@
 .userName {
   display: inline;
   background: linear-gradient(to right, blue, purple);
-  -webkit-background-clip: text; 
+  -webkit-background-clip: text;
   background-clip: text;
-  color: transparent; 
+  color: transparent;
 }
 
 .boxAvatar {
@@ -22,7 +22,7 @@
   width: 15.5rem;
   height: 15.5rem;
   border-radius: 100%;
-  background:linear-gradient(45deg, blue, purple) ;
+  background: linear-gradient(45deg, blue, purple);
 }
 .avatar {
   width: 15rem;
@@ -52,7 +52,7 @@
 }
 
 .myPhoto {
-  width: 300px ;
+  width: 300px;
 }
 
 .about {
@@ -60,6 +60,54 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem ;
+  gap: 1rem;
   font-size: 1.03rem;
+}
+
+/* Adicione media queries para tablets e celulares */
+@media screen and (max-width: 980px) {
+  .info {
+    margin-top: 12rem; /* Ajuste a margem superior para telas menores */
+    flex-direction: column; /* Altere a direção da coluna para telas menores */
+    height: auto; /* Remova a altura fixa para telas menores */
+    text-align: center; /* Centralize o texto para telas menores */
+    font-size: 1rem; /* Reduza o tamanho da fonte para telas menores */
+  }
+
+  .userName {
+    font-size: 1.5rem; /* Reduza o tamanho da fonte para telas menores */
+  }
+
+  .boxAvatar {
+    width: 10.2rem; /* Reduza o tamanho do contêiner da imagem para telas menores */
+    height: 10.2rem;
+  }
+
+  .avatar {
+    width: 10rem; /* Reduza o tamanho da imagem para telas menores */
+  }
+
+  .aboutMe {
+    margin-top: 10rem; /* Ajuste a margem superior para telas menores */
+  }
+
+  .aboutMe h2 {
+    font-size: 1.5rem; /* Reduza o tamanho da fonte para telas menores */
+  }
+
+  .myPhoto {
+    width: 200px; /* Reduza o tamanho da imagem para telas menores */
+    display: none;
+  }
+
+  .about {
+    font-size: 1rem; /* Reduza o tamanho da fonte para telas menores */
+  }
+
+  .photoAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

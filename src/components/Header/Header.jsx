@@ -5,11 +5,21 @@ import style from "./header.module.css"
 
 
 const Header = () => {
+
+    const scrollToAbout = () => {
+      const aboutSection = document.getElementById("aboutMe");
+      if (aboutSection) {
+        const yOffset = -100; // Ajuste esse valor para definir o quanto acima da seção "Sobre" você deseja rolar
+        aboutSection.scrollIntoView({ behavior: "smooth"});
+        // window.scrollBy(0, yOffset);
+      }
+    };
+
   return (
     <div className={style.container}>
       <img className={style.img} src={pc} alt="" />
       <ul className={style.navBarMenu}>
-        <li><a className={style.links} href="#aboutMe">Sobre</a></li>
+        <li><a className={style.links} href="#" onClick={scrollToAbout}>Sobre</a></li>
         <li><a className={style.links} href="">Técnologias</a></li>
         <li><a className={style.links} href="">Projetos</a></li>
         <li><a className={style.links} href="">CV</a></li>

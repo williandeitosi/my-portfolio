@@ -6,3 +6,15 @@
 
 }
 
+/* Adicione media queries para tablets e celulares */
+@media screen and (max-width: 768px) {
+  .app {
+    padding: 1rem 2rem; /* Reduza o preenchimento para telas menores */
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .app {
+    padding: 1rem; /* Reduza ainda mais o preenchimento para telas menores */
+  }
+}

@@ -36,3 +36,29 @@
 .icon {
   width: 70px;
 }
+
+
+@media screen and (max-width: 800px) {
+  .containerTech {
+    gap: 1rem; /* Reduza o espaçamento entre elementos para telas menores */
+  }
+
+  .containerTech > h2 {
+    font-size: 1.5rem; /* Reduza o tamanho da fonte para telas menores */
+    margin-bottom: 4rem; /* Ajuste a margem inferior para telas menores */
+  }
+
+  .techs {
+    margin-top: 10rem; /* Ajuste a margem superior para telas menores */
+  }
+
+  .gridContainerIcons {
+    width: 50%; /* Reduza a largura para telas menores */
+    grid-template-columns: repeat(3, 1fr); /* Reduza o número de colunas para telas menores */
+    grid-template-rows: repeat(4, 1fr); /* Ajuste o número de linhas para telas menores */
+  }
+
+  .icon {
+    width: 50px; /* Reduza o tamanho dos ícones para telas menores */
+  }
+}

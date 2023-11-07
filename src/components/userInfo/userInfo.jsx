@@ -16,9 +16,9 @@ const userInfo = () => {
           <img className={style.avatar} src={avatar} alt="" />
         </div>
       </div>
-      <div className={style.aboutMe}>
+      <div id="aboutMe" className={style.aboutMe}>
         <h2>Sobre mim</h2>
-        <div id="aboutMe" className={style.photoAbout}>
+        <div className={style.photoAbout}>
           <img className={style.myPhoto} src={avatar} alt="foto" />
           <div className={style.about} >
             <p>

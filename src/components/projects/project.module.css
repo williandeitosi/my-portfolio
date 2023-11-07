@@ -28,3 +28,30 @@
   align-items: center; 
 }
 
+
+
+@media screen and (max-width: 1160px) {
+  .containerProjects {
+    margin-top: 10rem; /* Ajuste a margem superior para telas menores */
+  }
+
+  .containerProjects > h2 {
+    font-size: 1.5rem; /* Reduza o tamanho da fonte para telas menores */
+    margin-bottom: 4rem; /* Ajuste a margem inferior para telas menores */
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr); /* Reduza o número de colunas para telas menores */
+    width: 70%; /* Reduza a largura para telas menores */
+  }
+}
+@media screen and (max-width: 880px) {
+  
+
+  
+
+  .projects {
+    grid-template-columns: repeat(1, 1fr); /* Reduza o número de colunas para telas menores */
+    width: 70%; /* Reduza a largura para telas menores */
+  }
+}
