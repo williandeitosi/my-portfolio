@@ -3,6 +3,7 @@ import style from "./project.module.css";
 import todolist from "../../../public/imgProjects/todolist.png";
 import memoria from "../../../public/imgProjects/memoria.png";
 import cronometro from "../../../public/imgProjects/cronometro.png";
+import player from "../../../public/imgProjects/player.png"
 
 const Projects = () => {
   return (
@@ -26,15 +27,15 @@ const Projects = () => {
         <Cards
           title="Cronometro"
           images={cronometro}
-          site="https://mern-frontend-ivory.vercel.app/"
-          code="https://github.com/williandeitosi/mern-frontend"
+          site="https://williandeitosi.github.io/Cronometro/"
+          code="https://github.com/williandeitosi/Cronometro"
           description="desenvolvimento de uma Lista de Tarefas utilizando a Stack MERN!"
         />
         <Cards
           title="Player Music"
-          images={todolist}
-          site="https://mern-frontend-ivory.vercel.app/"
-          code="https://github.com/williandeitosi/mern-frontend"
+          images={player}
+          site="https://williandeitosi.github.io/musicPlayer/"
+          code="https://github.com/williandeitosi/musicPlayer"
           description="desenvolvimento de uma Lista de Tarefas utilizando a Stack MERN!"
         />
       </div>

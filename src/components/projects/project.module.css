@@ -3,11 +3,16 @@
   height: 100%;
   width: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .containerProjects > h2{
   color: rgb(0, 0, 93);
   font-size: 2rem;
+
 
   margin-bottom: 7rem;
 }
@@ -16,8 +21,9 @@
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
-  grid-gap: 10px; 
-  
+  column-gap: 10px;
+  row-gap: 60px;
+  width: 75%;
   justify-items: center; 
   align-items: center; 
 }
