@@ -3,7 +3,7 @@ import images from "./importimgs";
 
 const Tech = () => {
   return (
-    <div className={style.containerTech} >
+    <div id="tech" className={style.containerTech} >
       <h2 className={style.techs}>Tecnologias</h2>
       <div className={style.gridContainerIcons}>
         <div className={style.gridIcons}>

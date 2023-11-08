@@ -7,7 +7,7 @@ import player from "../../../public/imgProjects/player.png"
 
 const Projects = () => {
   return (
-    <div className={style.containerProjects}>
+    <div id="projects" className={style.containerProjects}>
       <h2>Projetos</h2>
       <div className={style.projects}>
         <Cards

@@ -39,8 +39,18 @@
  }
 
  .container {
-  /* display: flex; */
   justify-content: center;
-  /* align-items: center; */
+ }
+
+ .navBarMenu{
+  padding-left: 0;
+  padding-right: 1rem;
+ }
+ .icons{
+  width: 25px;
+ }
+
+ .iconsMenu{
+  padding: 10px 0;
  }
 }
