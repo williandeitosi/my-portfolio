@@ -1,6 +1,5 @@
 .info {
   margin-top: 20rem;
-  height: 250px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,7 +45,7 @@
   grid-template-columns: 1fr 2fr;
   height: 100%;
   width: 100%;
-  max-height: 400px;
+  /* max-height: 400px; */
   grid-gap: 1rem;
   gap: 1rem;
 }
@@ -64,53 +63,73 @@
   font-size: 1.03rem;
 }
 
-/* Adicione media queries para tablets e celulares */
+
 @media screen and (max-width: 980px) {
   .info {
-    margin-top: 12rem; /* Ajuste a margem superior para telas menores */
-    flex-direction: column; /* Altere a direção da coluna para telas menores */
-    height: auto; /* Remova a altura fixa para telas menores */
-    text-align: center; /* Centralize o texto para telas menores */
-    font-size: 1rem; /* Reduza o tamanho da fonte para telas menores */
+    margin-top: 12rem; 
+    flex-direction: column;
+    text-align: center; 
+    font-size: 1rem; 
   }
 
   .userName {
-    font-size: 1.5rem; /* Reduza o tamanho da fonte para telas menores */
+    font-size: 1.5rem; 
   }
 
   .boxAvatar {
-    width: 10.2rem; /* Reduza o tamanho do contêiner da imagem para telas menores */
+    width: 10.2rem; 
     height: 10.2rem;
     margin-top: 3rem;
   }
 
   .avatar {
-    width: 10rem; /* Reduza o tamanho da imagem para telas menores */
+    width: 10rem; 
   }
 
   .aboutMe {
-    margin-top: 10rem; /* Ajuste a margem superior para telas menores */
+    margin-top: 15rem; 
   }
 
   .aboutMe h2 {
-    font-size: 1.5rem; /* Reduza o tamanho da fonte para telas menores */
+    font-size: 1.5rem; 
   }
 
   .myPhoto {
-    width: 200px; /* Reduza o tamanho da imagem para telas menores */
+    width: 200px; 
     display: none;
   }
 
   .about {
-    font-size: 1rem; /* Reduza o tamanho da fonte para telas menores */
+    font-size: 1rem; 
   }
 
   .photoAbout {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .info {
+    margin-top: 5rem;
+  }
+  .aboutMe h2 {
+    margin-top: 0;
+  }
+
+  .aboutMe{
+    margin-top: 10;
+  }
+
+  .boxAvatar {
+    width: 10rem; 
+    height: 10rem;
     margin-top: 3rem;
+  }
+
+  .avatar {
+    width: 9.6rem; 
   }
 }
