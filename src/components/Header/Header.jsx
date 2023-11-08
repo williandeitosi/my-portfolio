@@ -60,7 +60,7 @@ const Header = () => {
               <a className={`nav-link ${style.links}`} href="#" onClick={scrollToAbout}>Sobre</a>
             </li>
             <li className="nav-item">
-              <a className={`nav-link ${style.links}`} href="#" onClick={scrollToTech}>Técnologias</a>
+              <a className={`nav-link ${style.links}`} href="#" onClick={scrollToTech}>Tecnologias</a>
             </li>
             <li className="nav-item">
               <a className={`nav-link ${style.links}`} href="#" onClick={scrollToProjects}>Projetos</a>
@@ -85,7 +85,7 @@ const Header = () => {
       <img className={style.img} src={pc} alt="" />
       <ul className={style.navBarMenu}>
         <li><a className={style.links} href="#" onClick={scrollToAbout}>Sobre</a></li>
-        <li><a className={style.links} href="#" onClick={scrollToTech}>Técnologias</a></li>
+        <li><a className={style.links} href="#" onClick={scrollToTech}>Tecnologias</a></li>
         <li><a className={style.links} href="#" onClick={scrollToProjects}>Projetos</a></li>
         <li><a className={style.links} href="" download={cv}>CV</a></li>
         <li><a href="https://github.com/williandeitosi" target="_blank"><img className={style.icons} src={github} alt="github"   /></a></li>
