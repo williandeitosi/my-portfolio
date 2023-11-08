@@ -52,6 +52,6 @@
 
   .projects {
     grid-template-columns: repeat(1, 1fr); /* Reduza o número de colunas para telas menores */
-    width: 70%; /* Reduza a largura para telas menores */
+    width: 100%; /* Reduza a largura para telas menores */
   }
 }

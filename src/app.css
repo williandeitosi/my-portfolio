@@ -4,6 +4,7 @@
   max-width: 1500px;
   padding: 1rem 4rem;
 
+
 }
 
 /* Adicione media queries para tablets e celulares */
@@ -13,8 +14,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
   .app {
-    padding: 1rem; /* Reduza ainda mais o preenchimento para telas menores */
+    padding: 0.5rem; 
+    width: 100%;
   }
 }

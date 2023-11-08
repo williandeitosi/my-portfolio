@@ -81,6 +81,7 @@
   .boxAvatar {
     width: 10.2rem; /* Reduza o tamanho do contêiner da imagem para telas menores */
     height: 10.2rem;
+    margin-top: 3rem;
   }
 
   .avatar {
@@ -109,5 +110,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin-top: 3rem;
   }
 }

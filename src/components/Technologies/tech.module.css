@@ -62,3 +62,15 @@
     width: 50px; /* Reduza o tamanho dos ícones para telas menores */
   }
 }
+
+@media screen and (max-width: 500px) {
+  .icon {
+    width: 50px; /* Reduza o tamanho dos ícones para telas menores */
+  }
+
+  .gridContainerIcons {
+    width: 70%; /* Reduza a largura para telas menores */
+    
+  }
+
+}
